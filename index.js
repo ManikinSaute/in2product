@@ -21,90 +21,95 @@ const questions = [
         question: "What is is SCRUM?",
         optionA: "An Agile framework",
         optionB: "A a part of a rugby game",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionD"
+        optionC: "A Lean methodology",
+        optionD: "a two week period of time in which work happens",
+        correctOption: "optionAD"
     },
 
     {
-        question: "What is HotJar",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is acceptance criteria?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "What is a user story?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "What is HotJar?",
+        optionA: "A tool to provide data on website user behaviour",
+        optionB: "A tool to provide velocity data",
+        optionC: "A crum ceromony planning tool",
+        optionD: "A jar that has been heated to over 30 degrees",
         correctOption: "optionA"
     },
 
     {
-        question: "What is a swim lane?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
+        question: "What is acceptance criteria?",
+        optionA: "Non fuctional specifications that are hard to write down",
+        optionB: "A tool to provide data on acceptance tests",
+        optionC: "Infomration to specify what criteria must be met for somehting to be acceptable",
+        optionD: "A list of things you like that are added to a ticket as you think about the problem during a sprint",
         correctOption: "optionC"
     },
 
     {
+        question: "What is a user story?",
+        optionA: "A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer",
+        optionB: "A story of why you build your product and how this will be delivered on time and on budget",
+        optionC: "Agile RAID logs that describe bugs",
+        optionD: "A list of stories users have had when using the product",
+        correctOption: "optionA"
+        //https://www.atlassian.com/agile/project-management/user-stories
+    },
+
+    {
+        question: "What is a swim lane?",
+        optionA: "Prince 2 swimlanes are documants that you produce that you save to your floppy disk",
+        optionB: "Swimlanes are using end swimming pools to marked off areas for slow and fast swimmers",
+        optionC: "Scrum swimlanes are vertical lines that split a Scrum boards into sections",
+        optionD: "Kanban swimlanes are horizontal lines that split a Kanban board into sections",
+        // https://kanbanize.com/kanban-resources/kanban-software/kanban-swimlanes 
+        correctOption: "optionD"
+        
+    },
+
+    {
         question: "What is VWO",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        optionA: "Visual Website Optimiser, MVT and AB testing tool",
+        optionB: "Virtial Web Optimisation, MVT and AB testing tool",
+        optionC: "Virtial Web Operations, deployment tool",
+        optionD: "Very Weird Object, JS error message",
         correctOption: "optionA"
     },
 
     {
         question: "What is an AB test",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
+        optionA: "A test of many things to see what perfoms better",
+        optionB: "An Analog Biomentric test, to make sure digital and analog can connect via APIs",
+        optionC: "A test of two things, to see which performs better",
+        optionD: "When you have two web pages that have the same duplicate content",
         correctOption: "optionD"
     },
 
     {
         question: "What is a story point",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
+        optionA: "The moral of the story, the reason why",
+        optionB: "A size assigned to work",
+        optionC: "The type of data the work is using, ie floating points",
+        optionD: "The Fibonacci sequence",
         correctOption: "optionD"
     },
 
     {
         question: "What is velocity?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
+        optionA: "The rate of change of position with respect to a frame of reference, and is a function of time",
+        optionB: "Velocity is the total time estimates associated with user stories that were completed during an iteration.",
+        optionC: "Velocity is the total effort estimates associated with user stories that were completed during an iteration.",
+        optionD: "Faster than the speed of light",
         correctOption: "optionC"
+        // https://www.agilealliance.org/glossary/velocity 
     },
 
     {
         question: "What is a time box?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        optionA: "Time estimated on a sprint",
+        optionB: "Time estimated on a ticket",
+        optionC: "Time agreed on a sprint",
+        optionD: "A timebox is a previously agreed period of time during which a person or a team works steadily towards completion of some goal.",
+        correctOption: "optionD"
+        // https://www.agilealliance.org/glossary/timebox/
     },
 
 
@@ -119,20 +124,20 @@ const questions = [
 
     {
         question: "What is Git",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        optionA: "Version Control Software",
+        optionB: "An Agile framework",
+        optionC: "A website that hosts repositories",
+        optionD: "An anoying bug",
+        correctOption: "optionA"
     },
 
     {
         question: "What is a repo?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        optionA: "A debt collector",
+        optionB: "A haloween costume",
+        optionC: "A calofornian chilli",
+        optionD: "A code repository",
+        correctOption: "optionD"
     },
 
     {
