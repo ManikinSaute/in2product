@@ -205,38 +205,41 @@ const questions = [
 
     {
         question: "What is a roadmap?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        optionA: "A docuamnt produced by the cartographers for when cell towers are down",
+        optionB: "A shared source of truth that outlines the vision, direction, priorities, and progress of a product over time.",
+        optionC: "A scope docuamnt that lists all of the features you will ever need to build",
+        optionD: "A shared wiki page that outlines the issues with the product over time.",
+        correctOption: "optionB"
     },
 
     {
-        question: "What is an epic",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        question: "What is an epic?",
+        optionA: "A large body of work that can be broken down into a number of smaller stories",
+        optionB: "Really big tickets that are too big for a sprint",
+        optionC: "Big features",
+        optionD: "A poem, usualy Greek mythology",
+        correctOption: "optionA"
+        // https://www.atlassian.com/agile/project-management/epics 
     },
 
     {
         question: "What is a sprint backlog?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
+        optionA: "all issues in the raodmap that you want to work on",
+        optionB: "quickly removing technical debt",
+        optionC: "all the bugs for the current itteration",
+        optionD: "the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how)",
         correctOption: "optionC"
+        // https://www.scrum.org/resources/what-is-a-sprint-backlog
     },
     
         {
         question: "What is a product backlog?",
-        optionA: "x",
-        optionB: "x",
-        optionC: "x",
-        optionD: "x",
-        correctOption: "optionC"
+        optionA: "a list of everything that was in the project initaiaion documument",
+        optionB: "an ordered list of everything that might be needed in the product, the single source of requirements for any changes to be made",
+        optionC: "all the bugs you know about",
+        optionD: "all the work for the next sprint",
+        correctOption: "optionB"
+        // https://www.scrum.org/resources/what-is-a-product-backlog
     }
 
 ]
