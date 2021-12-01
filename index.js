@@ -10,7 +10,7 @@ const questions = [
     },
 
     {
-        question: "Whats the optimum agile team size?",
+        question: "Whats the optimum agile team size accorinf to Jeff Sutherland creator of Scrum ?",
         optionA: "7 plus or minus 2",
         optionB: "up to 20",
         optionC: "12 plus or minus 3",
