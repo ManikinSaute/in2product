@@ -22,7 +22,7 @@ const questions = [
     {
         question: "What is is scrum?",
         optionA: "An agile framework",
-        optionB: "A a part of a rugby game",
+        optionB: "An agile methodology",
         optionC: "A Lean methodology",
         optionD: "A two week period of time in which work happens",
         correctOption: "optionA"
@@ -202,7 +202,7 @@ const questions = [
 
     {
         question: "What is a sprint backlog?",
-        optionA: "A collection ofg all issues in the raodmap that you want to work on",
+        optionA: "A collection of all issues in the raodmap that you want to work on",
         optionB: "The process of quickly removing technical debt",
         optionC: "A list of all the bugs in the current itteration",
         optionD: "A set of product backlog items selected for the Sprint",
