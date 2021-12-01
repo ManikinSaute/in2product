@@ -357,8 +357,8 @@ function checkForAnswer() {
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id
-            document.getElementById(wrongLabelId).style.backgroundColor = "red"
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            document.getElementById(wrongLabelId).style.backgroundColor = "#f5e6e6"
+            document.getElementById(correctOption).style.backgroundColor = "#e8f5e6"
             wrongAttempt++
             indexNumber++
             //set to delay question number till when next question loads
