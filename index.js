@@ -20,12 +20,12 @@ const questions = [
     },
 
     {
-        question: "What is is SCRUM?",
-        optionA: "An Agile framework",
+        question: "What is is scrum?",
+        optionA: "An agile framework",
         optionB: "A a part of a rugby game",
         optionC: "A Lean methodology",
         optionD: "a two week period of time in which work happens",
-        correctOption: "optionAD"
+        correctOption: "optionA"
         // https://www.atlassian.com/agile/scrum 
     },
 
