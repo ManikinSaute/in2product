@@ -89,12 +89,12 @@ const questions = [
     },
 
     {
-        question: "What is an AB test?",
+        question: "What is an A/B test?",
         optionA: "A test of many things to see what perfoms better",
         optionB: "An Analog Biomentric test, to make sure digital and analog can connect via APIs",
         optionC: "A test of two things, to see which performs better",
         optionD: "When you have two web pages that have the same duplicate content",
-        correctOption: "optionD",
+        correctOption: "optionC",
         category: "Research UX"
         // https://vwo.com/ab-testing/ 
     },
