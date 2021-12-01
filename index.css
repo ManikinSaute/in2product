@@ -88,6 +88,7 @@ span label{
     transition: transform 0.1s;
     font-weight: 600;
     color: rgb(22, 22, 22);
+    padding: .5rem;
 }
 
 span label:hover{
@@ -104,7 +105,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-	background: paleturquoise;
+	background: #34a1a1;
 }
 
 .next-button-container{
@@ -118,9 +119,9 @@ input[type=radio]:checked ~ .option {
     height: 2rem;
     border-radius: 3px;
     background: none;
-    color: rgb(25, 25, 25);
+    color: #7e7e7e;
     font-weight: 600;
-    border: 2px solid gray;
+    border: 1px solid gray;
     cursor: pointer;
     outline: none;
 }
@@ -142,8 +143,8 @@ input[type=radio]:checked ~ .option {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    -webkit-animation: fadeIn .2s ease-in-out;
-    animation: fadeIn .2s ease-in-out;
+    -webkit-animation: fadeIn 1.2s ease-in-out;
+    animation: fadeIn 1.2s ease-in-out;
 }
 
 .modal-content-container{
