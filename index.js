@@ -5,7 +5,8 @@ const questions = [
         optionB: "Countless Intergrations Counterproductive Developers",
         optionC: "Compute Intergers Corrupt Datasets",
         optionD: "Cloud Infrastructure Concurrent Data",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Tech"
         // https://www.redhat.com/en/topics/devops/what-is-ci-cd
     },
 
@@ -15,7 +16,8 @@ const questions = [
         optionB: "up to 20",
         optionC: "12 plus or minus 3",
         optionD: "As many as needed",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Agile Scrum"
         // https://www.starttech.vc/blog/2018/agile-scrum-teams-for-peak-performance/ number taken from Scrum by Jeff Sutherland 
     },
 
@@ -25,7 +27,8 @@ const questions = [
         optionB: "An agile methodology",
         optionC: "A Lean methodology",
         optionD: "A two week period of time in which work happens",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Agile Scrum"
         // https://www.atlassian.com/agile/scrum 
     },
 
@@ -35,7 +38,8 @@ const questions = [
         optionB: "A tool to provide velocity data",
         optionC: "A scrum ceromony planning tool",
         optionD: "A jar that has been heated to over 30 degrees",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Tools UX Research"
         // https://www.hotjar.com/tour/ 
     },
 
@@ -45,7 +49,8 @@ const questions = [
         optionB: "A system to provide data on tests that pass the criteria",
         optionC: "Infomration to specify what criteria must be met for somehting to be acceptable",
         optionD: "A list of things you like that are added to a ticket as you think about the problem during a sprint",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "Agile"
         // https://www.productplan.com/glossary/acceptance-criteria/
     },
 
@@ -55,7 +60,8 @@ const questions = [
         optionB: "A story of why you build your product and how this will be delivered on time and on budget",
         optionC: "Agile RAID logs that describe bugs",
         optionD: "A list of stories users have had when using the product",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Agile"
         //https://www.atlassian.com/agile/project-management/user-stories
     },
 
@@ -65,7 +71,8 @@ const questions = [
         optionB: "Swimlanes are using end swimming pools to marked off areas for slow and fast swimmers",
         optionC: "Scrum swimlanes are vertical lines that split a Scrum boards into sections",
         optionD: "Kanban swimlanes are horizontal lines that split a Kanban board into sections",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Agile Kanban"
         // https://kanbanize.com/kanban-resources/kanban-software/kanban-swimlanes 
         // https://en.wikipedia.org/wiki/Swim_lane
     },
@@ -76,7 +83,8 @@ const questions = [
         optionB: "Virtial Web Optimisation, MVT and AB testing tool",
         optionC: "Virtial Web Operations, deployment tool",
         optionD: "Very Weird Object, JS error message",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Tools Research UX"
         // https://vwo.com/ 
     },
 
@@ -86,7 +94,8 @@ const questions = [
         optionB: "An Analog Biomentric test, to make sure digital and analog can connect via APIs",
         optionC: "A test of two things, to see which performs better",
         optionD: "When you have two web pages that have the same duplicate content",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Research UX"
         // https://vwo.com/ab-testing/ 
     },
 
@@ -96,7 +105,8 @@ const questions = [
         optionB: "A size assigned to work",
         optionC: "The type of data the work is using, ie floating points",
         optionD: "The Fibonacci sequence",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Agile"
         // https://www.mountaingoatsoftware.com/blog/what-are-story-points 
     },
 
@@ -106,7 +116,8 @@ const questions = [
         optionB: "Velocity is the total time estimates associated with user stories that were completed during an iteration.",
         optionC: "Velocity is the total effort estimates associated with user stories that were completed during an iteration.",
         optionD: "Faster than the speed of light",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "Agile"
         // https://www.agilealliance.org/glossary/velocity 
     },
 
@@ -116,7 +127,8 @@ const questions = [
         optionB: "Time estimated on a ticket",
         optionC: "Time agreed on a sprint",
         optionD: "A timebox is a previously agreed period of time during which a person or a team works steadily towards completion of some goal.",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Agile"
         // https://www.agilealliance.org/glossary/timebox/
     },
 
@@ -127,7 +139,8 @@ const questions = [
         optionB: "Software that focuses on project management tool for agile teams",
         optionC: "You roadmap and backlog",
         optionD: "A conversion rate optimisatin tool",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        category: "Tools"
         // https://www.atlassian.com/software/jira 
     },
 
@@ -137,7 +150,8 @@ const questions = [
         optionB: "An Agile framework",
         optionC: "A website that hosts repositories",
         optionD: "An anoying bug",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Tools Tech"
         // https://git-scm.com/ 
     },
 
@@ -147,7 +161,8 @@ const questions = [
         optionB: "A haloween costume",
         optionC: "A calofornian chilli",
         optionD: "A code repository",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Tools Tech"
         // https://bitbucket.org/product/code-repository
     },
 
@@ -157,7 +172,8 @@ const questions = [
         optionB: "A result from a test or experimentation that needs to be re tested",
         optionC: "A really intresting finding that is significant",
         optionD: "A result from data generated by testing or experimentation is not likely to occur randomly or by chance",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        category: "Research"
         // https://www.investopedia.com/terms/s/statistical-significance.asp
     },
 
@@ -167,7 +183,8 @@ const questions = [
         optionB: "Empiricism asserts that knowledge comes from experience and making decisions based on what is known. Transpareny, inspection and adaption.",
         optionC: "The control of processes by managment teams.",
         optionD: "Empiricism asserts that knowledge comes from senior managment based on the various theories they have studdieded. Documents, timlines and budgets.",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        category: "Agile Scrum"
         // https://scrumguides.org/scrum-guide.html 
     },
 
@@ -177,7 +194,8 @@ const questions = [
         optionB: "The time after desiging software and besfore testing software where you write code.",
         optionC: "Working really fast whn behind on a dealine, sometimes you need to stay late",
         optionD: "A twoo week period, when you itterate your product.",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        category: "Agile Scrum"
         // https://www.scrum.org/resources/what-is-a-sprint-in-scrum 
     },
 
@@ -187,7 +205,9 @@ const questions = [
         optionB: "A shared source of truth that outlines the vision, direction, priorities, and progress of a product over time.",
         optionC: "A scope docuamnt that lists all of the features you will ever need to build",
         optionD: "A shared wiki page that outlines the issues with the product over time.",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        category: "Agile"
+        // https://www.atlassian.com/agile/product-management/product-roadmaps
     },
 
     {
@@ -196,7 +216,8 @@ const questions = [
         optionB: "Really big tickets that are too big for a sprint",
         optionC: "Big features",
         optionD: "A poem, usualy Greek mythology",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        category: "Agile"
         // https://www.atlassian.com/agile/project-management/epics 
     },
 
@@ -206,7 +227,8 @@ const questions = [
         optionB: "The process of quickly removing technical debt",
         optionC: "A list of all the bugs in the current itteration",
         optionD: "A set of product backlog items selected for the Sprint",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "Agile Scrum"
         // https://www.scrum.org/resources/what-is-a-sprint-backlog
     },
     
@@ -216,7 +238,8 @@ const questions = [
         optionB: "An ordered list of everything that might be needed in the product",
         optionC: "All the bugs you know about",
         optionD: "All the work for the next sprint",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        category: "Agile Scrum"
         // https://www.scrum.org/resources/what-is-a-product-backlog
     }
     
@@ -229,7 +252,9 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
+        
     },
     
         {
@@ -238,7 +263,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     },
     
         {
@@ -247,7 +273,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     },
     
         {
@@ -256,7 +283,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     },
     
     {
@@ -265,7 +293,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     },
 
     {
@@ -274,7 +303,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     },
 
     {
@@ -283,7 +313,8 @@ const questions = [
         optionB: "x",
         optionC: "x",
         optionD: "x",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        category: "tech"
     }
 
 */
