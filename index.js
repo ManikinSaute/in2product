@@ -166,7 +166,7 @@ const questions = [
         optionA: "Where people not involved in the team use theory to impose process controls",
         optionB: "Empiricism asserts that knowledge comes from experience and making decisions based on what is known. Transpareny, inspection and adaption.",
         optionC: "The control of processes by managment teams.",
-        optionD: "Empiricism asserts that knowledge comes from senior managment and making decisions based on company values. Docuamnts, timlines and budgets.",
+        optionD: "Empiricism asserts that knowledge comes from senior managment based on the various theories they have studdieded. Docuamnts, timlines and budgets.",
         correctOption: "optionB"
         // https://scrumguides.org/scrum-guide.html 
     },
