@@ -10,7 +10,7 @@ const questions = [
     },
 
     {
-        question: "Whats the optimum Agile team?",
+        question: "Whats the optimum agile team size?",
         optionA: "7 plus or minus 2",
         optionB: "up to 20",
         optionC: "12 plus or minus 3",
@@ -91,7 +91,7 @@ const questions = [
     },
 
     {
-        question: "What is a story point",
+        question: "What is a story point?",
         optionA: "The moral of the story, the reason why",
         optionB: "A size assigned to work",
         optionC: "The type of data the work is using, ie floating points",
@@ -122,7 +122,7 @@ const questions = [
 
 
     {
-        question: "What is Jira",
+        question: "What is Jira?",
         optionA: "A collection of bugs or issues",
         optionB: "Software owned by atlassian that focuses on project management tool for agile teams",
         optionC: "You roadmap and backlog",
@@ -132,7 +132,7 @@ const questions = [
     },
 
     {
-        question: "What is Git",
+        question: "What is Git?",
         optionA: "Version Control Software",
         optionB: "An Agile framework",
         optionC: "A website that hosts repositories",
@@ -183,7 +183,7 @@ const questions = [
 
     {
         question: "What is a roadmap?",
-        optionA: "A docuamnt produced by the cartographers for when cell towers are down",
+        optionA: "A document produced by the cartographers for when cell towers are down",
         optionB: "A shared source of truth that outlines the vision, direction, priorities, and progress of a product over time.",
         optionC: "A scope docuamnt that lists all of the features you will ever need to build",
         optionD: "A shared wiki page that outlines the issues with the product over time.",
