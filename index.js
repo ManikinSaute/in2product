@@ -24,7 +24,7 @@ const questions = [
         optionA: "An agile framework",
         optionB: "A a part of a rugby game",
         optionC: "A Lean methodology",
-        optionD: "a two week period of time in which work happens",
+        optionD: "A two week period of time in which work happens",
         correctOption: "optionA"
         // https://www.atlassian.com/agile/scrum 
     },
@@ -33,7 +33,7 @@ const questions = [
         question: "What is HotJar?",
         optionA: "A tool to provide data on website user behaviour",
         optionB: "A tool to provide velocity data",
-        optionC: "A crum ceromony planning tool",
+        optionC: "A scrum ceromony planning tool",
         optionD: "A jar that has been heated to over 30 degrees",
         correctOption: "optionA"
         // https://www.hotjar.com/tour/ 
