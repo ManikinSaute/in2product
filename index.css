@@ -37,7 +37,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .game-details-container{
@@ -79,9 +79,9 @@ main{
 
 .game-options-container span{
     width: 45%;
-    height: 3rem;
-    border: 2px solid darkgray;
-    border-radius: 7px;
+    height: 6rem;
+    border: 2px solid grey;
+    border-radius: 3px;
     overflow: hidden;
 }
 span label{
@@ -148,11 +148,12 @@ input[type=radio]:checked ~ .option {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    -webkit-animation: fadeIn 1.2s ease-in-out;
-    animation: fadeIn 1.2s ease-in-out;
+    -webkit-animation: fadeIn .2s ease-in-out;
+    animation: fadeIn .2s ease-in-out;
 }
 
 .modal-content-container{
+    colour:white;
     height: 20rem;
     width: 25rem;
     background-color: rgb(43, 42, 42);
