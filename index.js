@@ -42,7 +42,7 @@ const questions = [
     {
         question: "What is acceptance criteria?",
         optionA: "Non fuctional specifications that are hard to write down",
-        optionB: "A tool to provide data on acceptance tests",
+        optionB: "A system to provide data on tests that pass the criteria",
         optionC: "Infomration to specify what criteria must be met for somehting to be acceptable",
         optionD: "A list of things you like that are added to a ticket as you think about the problem during a sprint",
         correctOption: "optionC"
@@ -223,6 +223,33 @@ const questions = [
     
 /*
 
+        {
+        question: "What is definition of done?",
+        optionA: "x",
+        optionB: "x",
+        optionC: "x",
+        optionD: "x",
+        correctOption: "optionC"
+    },
+    
+        {
+        question: "What is definition of ready?",
+        optionA: "x",
+        optionB: "x",
+        optionC: "x",
+        optionD: "x",
+        correctOption: "optionC"
+    },
+    
+        {
+        question: "What is a typical user story ?",
+        optionA: "As a ",
+        optionB: "x",
+        optionC: "x",
+        optionD: "x",
+        correctOption: "optionC"
+    },
+    
         {
         question: "What is customer exerience and C stat?",
         optionA: "x",
