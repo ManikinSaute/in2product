@@ -61,7 +61,7 @@ const questions = [
 
     {
         question: "What is a swim lane?",
-        optionA: "Prince 2 swimlanes are documants that you produce that you save to your floppy disk",
+        optionA: "Prince 2 swimlanes are documents that you produce that you save to your floppy disk",
         optionB: "Swimlanes are using end swimming pools to marked off areas for slow and fast swimmers",
         optionC: "Scrum swimlanes are vertical lines that split a Scrum boards into sections",
         optionD: "Kanban swimlanes are horizontal lines that split a Kanban board into sections",
@@ -124,7 +124,7 @@ const questions = [
     {
         question: "What is Jira?",
         optionA: "A collection of bugs or issues",
-        optionB: "Software owned by atlassian that focuses on project management tool for agile teams",
+        optionB: "Software that focuses on project management tool for agile teams",
         optionC: "You roadmap and backlog",
         optionD: "A conversion rate optimisatin tool",
         correctOption: "optionB"
@@ -173,11 +173,11 @@ const questions = [
 
     {
         question: "What is a sprint?",
-        optionA: "They are fixed length events of one month or less to create consistency. A new Sprint starts immediately after the conclusion of the previous Sprint.",
+        optionA: "They are fixed length events of one month or less. A new Sprint starts immediately after the previous Sprint.",
         optionB: "The time after desiging software and besfore testing software where you write code.",
         optionC: "Working really fast whn behind on a dealine, sometimes you need to stay late",
         optionD: "A twoo week period, when you itterate your product.",
-        correctOption: "optionC"
+        correctOption: "optionB"
         // https://www.scrum.org/resources/what-is-a-sprint-in-scrum 
     },
 
@@ -213,7 +213,7 @@ const questions = [
         {
         question: "What is a product backlog?",
         optionA: "a list of everything that was in the project initaiaion documument",
-        optionB: "an ordered list of everything that might be needed in the product, the single source of requirements for any changes to be made",
+        optionB: "an ordered list of everything that might be needed in the product",
         optionC: "all the bugs you know about",
         optionD: "all the work for the next sprint",
         correctOption: "optionB"
