@@ -71,7 +71,7 @@ const questions = [
     },
 
     {
-        question: "What is VWO",
+        question: "What is VWO?",
         optionA: "Visual Website Optimiser, MVT and AB testing tool",
         optionB: "Virtial Web Optimisation, MVT and AB testing tool",
         optionC: "Virtial Web Operations, deployment tool",
@@ -81,7 +81,7 @@ const questions = [
     },
 
     {
-        question: "What is an AB test",
+        question: "What is an AB test?",
         optionA: "A test of many things to see what perfoms better",
         optionB: "An Analog Biomentric test, to make sure digital and analog can connect via APIs",
         optionC: "A test of two things, to see which performs better",
@@ -202,20 +202,20 @@ const questions = [
 
     {
         question: "What is a sprint backlog?",
-        optionA: "all issues in the raodmap that you want to work on",
-        optionB: "quickly removing technical debt",
-        optionC: "all the bugs for the current itteration",
-        optionD: "the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how)",
+        optionA: "A collection ofg all issues in the raodmap that you want to work on",
+        optionB: "The process of quickly removing technical debt",
+        optionC: "A list of all the bugs in the current itteration",
+        optionD: "A set of product backlog items selected for the Sprint",
         correctOption: "optionC"
         // https://www.scrum.org/resources/what-is-a-sprint-backlog
     },
     
         {
         question: "What is a product backlog?",
-        optionA: "a list of everything that was in the project initaiaion documument",
-        optionB: "an ordered list of everything that might be needed in the product",
-        optionC: "all the bugs you know about",
-        optionD: "all the work for the next sprint",
+        optionA: "A list of everything that was in the project initaiaion documument",
+        optionB: "An ordered list of everything that might be needed in the product",
+        optionC: "All the bugs you know about",
+        optionD: "All the work for the next sprint",
         correctOption: "optionB"
         // https://www.scrum.org/resources/what-is-a-product-backlog
     }
